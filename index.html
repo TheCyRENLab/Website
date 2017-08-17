@@ -6,8 +6,6 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
 
     <title>CyREN Lab</title>
 
@@ -20,9 +18,11 @@
     <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Suez+One" rel="stylesheet" type='text/css'>
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Roboto+Condensed|Slabo+27px|Source+Sans+Pro" rel="stylesheet" type="text/css">
 
     <!-- Theme CSS -->
-    <link href="css/agency.min.css" rel="stylesheet">
+    <link href="css/color.css" rel="stylesheet">
 
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -43,16 +43,10 @@
                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
                     <span class="sr-only">Toggle navigation</span> Menu <i class="fa fa-bars"></i>
                 </button>
-
-<!--                <a class="navbar-brand page-scroll" href="#page-top">The CyREN Lab</a> -->
-                  <ul class="list-inline">
-                    <li><a class="navbar-brand page-scroll" href="#page-top">The CyREN Lab</a></li>
-                    <li><img src="img/yelloweye.png" class="img-responsive img-centered" alt=""></li>
-
-                  </ul>
-
+                <ul class="list-inline">
+                  <li><a class="navbar-brand page-scroll" href="#page-top"><strong>The CyREN Lab</strong></a></li>
+                </ul>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
                 <ul class="nav navbar-nav navbar-right">
@@ -60,83 +54,57 @@
                         <a href="#page-top"></a>
                     </li>
                     <li>
+                        <a class="page-scroll" href="#mission">Our Mission</a>
+                    </li>
+                    <li>
                         <a class="page-scroll" href="#research">Research</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#portfolio">Teams</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#progress">Progress</a>
-                    </li>
-                    <li>
-                        <a class="page-scroll" href="#team">People</a>
                     </li>
                     <li>
                         <a class="page-scroll" href="#contact">Contact</a>
                     </li>
                 </ul>
-            </div>
-            <!-- /.navbar-collapse -->
-        </div>
-        <!-- /.container-fluid -->
+            </div> <!-- /.navbar-collapse -->
+        </div> <!-- /.container-fluid -->
     </nav>
 
     <!-- Header -->
     <header>
         <div class="container">
             <div class="intro-text">
-                <div class="intro-lead-in">Welcome to the University of Pittsburgh's CyREN Lab</div>
-                <div class="intro-heading">Where Honeypots are Advanced</div>
-                <a href="#research" class="page-scroll btn btn-xl">Tell Me More</a>
+                <div class="intro-lead-in" style="color:white;">Welcome to the CyREN Lab at the University of Pittsburgh</div>
+                <a href="#mission" class="page-scroll btn btn-xl">Our Mission</a>
+                <br></br><br></br>
             </div>
         </div>
     </header>
 
-    <!-- Services Section -->
-    <section id="research">
+
+    <!-- Mission Section -->
+    <section id="mission" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Research</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Our Mission</h2>
+                    <br></br>
                 </div>
             </div>
-            <div class="row text-center">
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-shopping-cart fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="research-heading">Honeypots</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-laptop fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="research-heading">User Automation</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
-                <div class="col-md-4">
-                    <span class="fa-stack fa-4x">
-                        <i class="fa fa-circle fa-stack-2x text-primary"></i>
-                        <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                    </span>
-                    <h4 class="research-heading">Threat Intelligence</h4>
-                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Minima maxime quam architecto quo inventore harum ex magni, dicta impedit.</p>
-                </div>
+            <div class="row">
+              <div class="col-md-12">
+              <p class="large">
+                  The CyREN Lab advances the cyber simulation domain and cybersecurity data collection through research, modeling, experimentation, product evaluation, and collaboration activities.  We aim to engineer a simulation testbed that enables on-demand environment configuration and customization for test-specific environment controls.  This R&D effort builds upon traditional simulation design and honeypot research to produce realistically camouflaged decoy simulations.  Such simulations are capable of empirical cyber intelligence collection, hypothesis testing, and incident response planning.
+                </p>
+              </div>
             </div>
-        </div>
+
+      </div> <!-- /.container-fluid -->
     </section>
 
-    <!-- Portfolio Grid Section -->
-    <section id="portfolio" class="bg-light-gray">
+    <!-- Research Portfolio Section -->
+    <section id="research" class="white">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Portfolio</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Research Areas</h2>
                 </div>
             </div>
             <div class="row">
@@ -147,11 +115,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/roundicons.png" class="img-responsive" alt="">
+                        <img src="img/camo.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Round Icons</h4>
-                        <p class="text-muted">Graphic Design</p>
+                        <h4>Camouflaged Simulations</h4>
+                        <!-- <p class="text-muted">Utilizing Xen, vSphere ESXi</p> -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -161,11 +129,11 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/startup-framework.png" class="img-responsive" alt="">
+                        <img src="img/eval.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Startup Framework</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Product Evaluations</h4>
+                        <!-- <p class="text-muted">Testing open source IDSs</p> -->
                     </div>
                 </div>
                 <div class="col-md-4 col-sm-6 portfolio-item">
@@ -175,333 +143,54 @@
                                 <i class="fa fa-plus fa-3x"></i>
                             </div>
                         </div>
-                        <img src="img/portfolio/treehouse.png" class="img-responsive" alt="">
+                        <img src="img/lock.png" class="img-responsive" alt="">
                     </a>
                     <div class="portfolio-caption">
-                        <h4>Treehouse</h4>
-                        <p class="text-muted">Website Design</p>
+                        <h4>Cyber Best Practices</h4>
+                        <!-- <p class="text-muted">With the Elastic Stack</p> -->
                     </div>
                 </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal4" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/golden.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Golden</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal5" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/escape.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Escape</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
-                </div>
-                <div class="col-md-4 col-sm-6 portfolio-item">
-                    <a href="#portfolioModal6" class="portfolio-link" data-toggle="modal">
-                        <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                                <i class="fa fa-plus fa-3x"></i>
-                            </div>
-                        </div>
-                        <img src="img/portfolio/dreams.png" class="img-responsive" alt="">
-                    </a>
-                    <div class="portfolio-caption">
-                        <h4>Dreams</h4>
-                        <p class="text-muted">Website Design</p>
-                    </div>
                 </div>
             </div>
-        </div>
+        </div> <!-- /.container-fluid -->
     </section>
 
-    <!-- Progress Section -->
-    <section id="Progress">
+
+    <!-- Our Technologies -->
+    <section id="tech" class="bg-light-gray">
         <div class="container">
             <div class="row">
                 <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Progress</h2>
-                    <h3 class="section-subheading text-muted">Lorem ipsum dolor sit amet consectetur.</h3>
+                    <h2 class="section-heading">Technologies We Use</h2>
+                    <br></br>
                 </div>
             </div>
             <div class="row">
-                <div class="col-lg-12">
-                    <ul class="timeline">
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/progress/1.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>2009-2011</h4>
-                                    <h4 class="subheading">Our Humble Beginnings</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/progress/2.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>March 2011</h4>
-                                    <h4 class="subheading">An Agency is Born</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li>
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/progress/3.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>December 2012</h4>
-                                    <h4 class="subheading">Transition to Full Service</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <img class="img-circle img-responsive" src="img/progress/4.jpg" alt="">
-                            </div>
-                            <div class="timeline-panel">
-                                <div class="timeline-heading">
-                                    <h4>July 2014</h4>
-                                    <h4 class="subheading">Phase Two Expansion</h4>
-                                </div>
-                                <div class="timeline-body">
-                                    <p class="text-muted">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Sunt ut voluptatum eius sapiente, totam reiciendis temporibus qui quibusdam, recusandae sit vero unde, sed, incidunt et ea quo dolore laudantium consectetur!</p>
-                                </div>
-                            </div>
-                        </li>
-                        <li class="timeline-inverted">
-                            <div class="timeline-image">
-                                <h4>Be Part
-                                    <br>Of Our
-                                    <br>Story!</h4>
-                            </div>
-                        </li>
-                    </ul>
+                <div class="col-md-3 col-sm-6">
+                    <a target="_blank" href="https://www.xenproject.org/">
+                        <img src="img/logos/xen.png" class="img-responsive img-centered" alt="Xen">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a target="_blank" href="http://www.pfsense.org/">
+                        <img src="img/logos/pfsense.png" class="img-responsive img-centered" alt="VMware">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a target="_blank" href="https://www.elastic.co/">
+                        <img src="img/logos/elastic.png" class="img-responsive img-centered" alt="">
+                    </a>
+                </div>
+                <div class="col-md-3 col-sm-6">
+                    <a target="_blank" href="https://www.snort.org/">
+                        <img src="img/logos/snort.png" class="img-responsive img-centered" alt="">
+                    </a>
                 </div>
             </div>
-        </div>
-    </section>
+            </div>
 
-    <!-- Team Section -->
-    <section id="team" class="bg-light-gray">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h2 class="section-heading">Our Amazing Team</h2>
-                    <h3 class="section-subheading text-muted">Second heading here</h3>
-                </div>
-            </div>
-            <div class="row">
-              <div class="col-sm-6">
-                <div class="team-member">
-                  <img src="img/team/david.jpg" class="img-responsive img-circle" alt="">
-                  <h4>Dr. David Thaw</h4>
-                  <p class="text-muted">Principal Investigator</p>
-              </div>
-            </div>
-              <div class="col-sm-6">
-                <div class="bio">
-                  <p>David Thaw is an Assistant Professor of Law and Information Sciences at the University of Pittsburgh and an Affiliated Fellow of the Information Society Project at Yale Law School.
-                  </p>
-                  <p>
-                    He is an internationally-recognized expert on cybersecurity law and policy. David's work uses computing and information empirical methods to understand the nature and character of cybersecurity risks. He uses scientific data in his legal and policy scholarship to examine how regulatory frameworks drive cybersecurity practices "on the ground." David's other areas of research include privacy, cybercrime, legal issues of cyberwarfare, and administrative law and regulatory theory.
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="row">
-                <div class="col-lg-12 text-center">
-                    <h3 class="section-subheading text-muted">Students from the School of Information Science, Computer Science Department, and the Graduate School of Public Affairs</h3>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/abby.png" class="img-responsive img-circle" alt="">
-                        <h4>Abby Waliga</h4>
-                        <p class="text-muted">Project Manager</p>
-                        <ul class="list-inline social-buttons">
-                          <li><p class="text-muted" style="color:black" id="bio">Grad Student, MPIA</p>
-                          </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/carrie.jpeg" class="img-responsive img-circle" alt="">
-                        <h4>Carrie Gardner</h4>
-                        <p class="text-muted">Assistant Project Manager, Data Analytics Lead</p>
-                        <ul class="list-inline social-buttons">
-                          <li><p class="text-muted" style="color:black" id="bio">Grad Student, MSIS</p>
-                          </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jamie Gambetta</h4>
-                        <p class="text-muted">Lead Pentester</p>
-                        <ul class="list-inline social-buttons">
-                          <li><p class="text-muted" style="color:black" id="bio">Grad Student, MSIS</p>
-                          </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/marisa.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Marisa Midler</h4>
-                        <p class="text-muted">Systems Team</p>
-                        <ul class="list-inline social-buttons">
-                          <li><p class="text-muted" style="color:black" id="bio">Undergrad Student, BSIS</p>
-                          </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Tyler Brooks</h4>
-                        <p class="text-muted">Systems Team Lead</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/shannon.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Shannon Bradley</h4>
-                        <p class="text-muted">Camouflague Lead, Research Team Lead</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/3.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Stephen Skoch</h4>
-                        <p class="text-muted">Data Capture Lead</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/1.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Jacky Ramsey</h4>
-                        <p class="text-muted">Jacky info</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-                <div class="col-sm-3">
-                    <div class="team-member">
-                        <img src="img/team/2.jpg" class="img-responsive img-circle" alt="">
-                        <h4>Ryan Craig</h4>
-                        <p class="text-muted">Ryan info</p>
-                        <ul class="list-inline social-buttons">
-                            <li><a href="#"><i class="fa fa-twitter"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-facebook"></i></a>
-                            </li>
-                            <li><a href="#"><i class="fa fa-linkedin"></i></a>
-                            </li>
-                        </ul>
-                    </div>
-                </div>
-              </div>
-            <div class="row">
-                <div class="col-lg-8 col-lg-offset-2 text-center">
-                    <p>Intersted in joining us?  Please email Abby at: </p>
-                    <p class="large text-muted">Let's say something here for interested students</p>
-                </div>
-            </div>
-        </div>
+      </div> <!-- /.container-fluid -->
     </section>
-
-    <!-- Collaborators Aside -->
-    <aside class="clients">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/envato.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/designmodo.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/themeforest.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-                <div class="col-md-3 col-sm-6">
-                    <a href="#">
-                        <img src="img/logos/creative-market.jpg" class="img-responsive img-centered" alt="">
-                    </a>
-                </div>
-            </div>
-        </div>
-    </aside>
 
     <!-- Contact Section -->
     <section id="contact">
@@ -509,7 +198,8 @@
             <div class="row">
                 <div class="col-lg-12 text-center">
                     <h2 class="section-heading">Contact Us</h2>
-                    <h3 class="section-subheading text-muted" style="color:#eeeeee">Intersted in our reserach? Wish to join our team? Contact us for more information.</h3>
+                    <h4 class="section-subheading text-muted" style="color:#eeeeee">Intersted in our reserach? Wish to join our team? Contact us for more information.</h4>
+                    <br></br>
                 </div>
             </div>
             <div class="row">
@@ -552,15 +242,18 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-4">
-                    <span class="copyright">Copyright &copy; CyREN Lab 2016</span>
+                    <span class="copyright">Copyright &copy; CyREN Lab 2017</span>
                 </div>
                 <div class="col-md-4"> <!-- intentionally empty -->
+                  <ul class="list-inline quicklinks">
+                      <li><a href="mailto:cyrenlab@googlegroups.com?Subject=Information%20Request">cyrenlab@googlegroups.com</a>
+                      </li>
+                  </ul>
                 </div>
                 <div class="col-md-4">
-                    <ul class="list-inline quicklinks">
-                        <li><a href="mailto:cyrenlab@googlegroups.com?Subject=Information%20Request">cyrenlab@googlegroups.com</a>
-                        </li>
-                    </ul>
+                  <a target="_blank" href="http://pitt.edu">
+                      <img style="width:75%" src="img/logos/pitt.png" class="img-responsive img-centered" alt="">
+                  </a>
                 </div>
             </div>
         </div>
@@ -584,17 +277,11 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt="">
-                                <p>Use this area to describe your project. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Est blanditiis dolorem culpa incidunt minus dignissimos deserunt repellat aperiam quasi sunt officia expedita beatae cupiditate, maiores repudiandae, nostrum, reiciendis facere nemo!</p>
+                                <h2>Camouflaged Simulations</h2>
+                                <p class="item-intro text-muted">How do you build a simulation that can collect empirically valid cyber threat intelligence?</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/roundicons-free.png" alt=""> -->
+                                <p>Our lab implements a wide range of camoflauge techniques, including virtualization technologies, automation, and synthetic data. These techniques allow for empirical experimentation and cyber threat intelligence collection.</p>
                                 <p>
-                                    <strong>Want these icons in this portfolio item sample?</strong>You can download 60 of them for free, courtesy of <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">RoundIcons.com</a>, or you can purchase the 1500 icon set <a href="https://getdpd.com/cart/hoplink/18076?referrer=bvbo4kax5k8ogc">here</a>.</p>
-                                <ul class="list-inline">
-                                    <li>Date: July 2014</li>
-                                    <li>Client: Round Icons</li>
-                                    <li>Category: Graphic Design</li>
-                                </ul>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -618,11 +305,11 @@
                     <div class="row">
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
-                                <h2>Project Heading</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt="">
-                                <p><a href="http://designmodo.com/startup/?u=787">Startup Framework</a> is a website builder for professionals. Startup Framework contains components and complex blocks (PSD+HTML Bootstrap themes and templates) which can easily be integrated into almost any design. All of these components are made in the same style, and can easily be integrated into projects, allowing you to create hundreds of solutions for your future projects.</p>
-                                <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p>
+                                <h2>Project Evaluations</h2>
+                                <p class="item-intro text-muted">Thousands of diferent intrusion detection systems exist, but how can they be objectively evaluated?</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/startup-framework-preview.png" alt=""> -->
+                                <p>Our lab uses scientific simulations to assess and objectively measure the performance and usability of instrusion detection systems.</p>
+                                <!-- <p>You can preview Startup Framework <a href="http://designmodo.com/startup/?u=787">here</a>.</p> -->
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
@@ -647,11 +334,10 @@
                         <div class="col-lg-8 col-lg-offset-2">
                             <div class="modal-body">
                                 <!-- Project Details Go Here -->
-                                <h2>Project Name</h2>
-                                <p class="item-intro text-muted">Lorem ipsum dolor sit amet consectetur.</p>
-                                <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt="">
-                                <p>Treehouse is a free PSD web template built by <a href="https://www.behance.net/MathavanJaya">Mathavan Jaya</a>. This is bright and spacious design perfect for people or startup companies looking to showcase their apps or other projects.</p>
-                                <p>You can download the PSD template in this portfolio sample item at <a href="http://freebiesxpress.com/gallery/treehouse-free-psd-web-template/">FreebiesXpress.com</a>.</p>
+                                <h2>Cyber Best Practices</h2>
+                                <p class="item-intro text-muted">How can cyber security best practices be evaluated?</p>
+                                <!-- <img class="img-responsive img-centered" src="img/portfolio/treehouse-preview.png" alt=""> -->
+                                <p>Our lab combines experimental design with rigorous research methods to develop conclusions on potential cyber best practices that are both generalizable and empirically valid.</p>
                                 <button type="button" class="btn btn-primary" data-dismiss="modal"><i class="fa fa-times"></i> Close Project</button>
                             </div>
                         </div>
